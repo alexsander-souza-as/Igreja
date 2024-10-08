@@ -1,110 +1,273 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-            crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
 
-        <title>Igreja ADQB</title>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a href="#" class="navbar-brand h1 mb-0">Logo ADQB</a>
-                
-                <button class="navbar-toggler" type="bottom"
-                    data-toggle="collapse" data-target="#navbarSite">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSite">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Cultos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Batismos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Agenda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Administrativa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contatos</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">Redes Sociais</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Instagram</a>
-                                <a href="#" class="dropdown-item">Facebook</a>
-                                <a href="#" class="dropdown-item">Youtube</a>
-                            </div>
-                            
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div id="carouselSite" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li class="active" data-target="#carouselSite" data-slide-to="0"></li>
-                <li class="active" data-target="#carouselSite" data-slide-to="1"></li>
-                <li class="active" data-target="#carouselSite" data-slide-to="2"></li>
-            </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/adqb perfil.jpg" class="img-fluid d-block">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/jubileu.jpg" class="img-fluid d-block">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/historia adqb.jpg" class="img-fluid d-block">
-                    </div>
-                </div>
-                <a href="#carouselSite" class="carousel-control-prev" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                    <span class="sr-only">Anterior</span>
-                </a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-                <a href="#carouselSite" class="carousel-control-next" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                    <span class="sr-only">Proximo</span>
-                </a>
-        </div>
+    <title>Igreja ADQB</title>
+</head>
 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center my-5">
-                    <h1 class="display-3">
-                        <i class=""></i>
-                        Bem Vindos!!</h1>
+            <a href="#" class="navbar-brand h1 mb-0"> <img src="img/Logo_adqb.png" alt="">Igreja ADQB</a>
+
+            <button class="navbar-toggler" type="bottom" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cultos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Batismos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Administrativa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatos</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">Redes
+                            Sociais</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Instagram</a>
+                            <a href="#" class="dropdown-item">Facebook</a>
+                            <a href="#" class="dropdown-item">Youtube</a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#carouselSite" data-slide-to="0"></li>
+            <li class="active" data-target="#carouselSite" data-slide-to="1"></li>
+            <li class="active" data-target="#carouselSite" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/adqb perfil.jpg" class="img-fluid d-block">
+            </div>
+            <div class="carousel-item">
+                <img src="img/jubileu.jpg" class="img-fluid d-block">
+            </div>
+            <div class="carousel-item">
+                <img src="img/historia adqb.jpg" class="img-fluid d-block">
+            </div>
+        </div>
+        <a href="#carouselSite" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+
+        <a href="#carouselSite" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Proximo</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <div id="wsite-content" class="wsite-elements wsite-not-footer">
+            <h2 class="wsite-content-title" style="text-align:left;">
+                <font color="#8d2424">&nbsp;70 ANOS FAZENDO A VONTADE DE DEUS.</font>
+            </h2>
+
+            <span class="imgPusher" style="float:left;height:0px"></span><span
+                style="display: table;z-index:10;width:auto;position:relative;float:left;max-width:100%;;clear:left;margin-top:3px;*margin-top:6px"><a><img
+                        src="img/inicio_adqb.jpg"
+                        style="margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; border-width:1px;padding:3px; max-width:100%"
+                        alt=" Imagem " class="galleryImageBorder wsite-image"></a><span
+                    style="display: table-caption; caption-side: bottom; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;"
+                    class="wsite-caption">1º Templo da Assembleia de Deus em Quatro Barras
+                </span></span>
+            <div class="paragraph" style="text-align:justify;display:block;">
+                <font color="#626262">
+                    <font size="4">COMO TUDO COMEÇOU.</font><br><br><span style="text-align: justify;">A</span><span
+                        style="text-align: justify;"> Igreja Evangélica Assembléia de Deus de Quatro Barras, começou
+                        suas atividades na década de 50, no bairro do Florestal. Nesta época, a irmã Procópia Cordeiro,
+                        reunia em sua casa algumas pessoas para adorarem a Deus e falar do amor de Cristo. No ano de
+                        1952, o Presbítero Eurípedes de Souza Oliveira (in memoriam) foi enviado através da igreja de
+                        Piraquara para dar início à Assembléia de Deus na região de Quatro Barras. Nesta época, a irmã
+                        Procópia doou um terreno para igreja, onde ali foi construído um templo de madeira, ao qual
+                        ficou ativo por aproximadamente 45 anos. Oficialmente, o imóvel foi registrado em posse da
+                        igreja no dia 12/01/1968. Os primeiros membros eram constituídos por pessoas que moravam nos
+                        povoados mais próximos do local da igreja. Na maioria das vezes, os deslocamentos destes membros
+                        para chegar ao local da igreja, eram feitos a pé.&nbsp;</span>Já na década de 80, a região de
+                    Quatro Barras possuía uma população maior, e neste cenário, a Assembléia de Deus começava a perder
+                    membros para outras igrejas que estavam sendo construídas nas proximidades do centro, pois a
+                    localização da igreja no Florestal oferecia uma locomoção maior para seus membros.<br><br>&nbsp;
+                    &nbsp; O Presbítero Antônio Peixoto (in memoriam) possuía uma chácara na localidade de Quatro Barras
+                    próximo ao centro, e doou para igreja uma parte equivalente a uma área de 5000m2, e logo em seguida
+                    foi construída uma casa para alojar os dirigentes locais que passavam por ali. Na ocasião, o
+                    cooperador Adilson Rodrigues que foi um dos moradores da casa, cedeu um espaço para funcionar como
+                    ponto de pregação.<br><br>&nbsp; &nbsp; Na década de 90, uma comitiva da Assembléia de Deus da sede
+                    (Curitiba) foi enviada para analisar as condições das instalações da igreja, e concluíram que havia
+                    necessidade de uma ampliação do templo de madeira do Florestal. Porém o dirigente Claudino Dornelles
+                    acreditava que seria mais interessante construir um templo próximo ao centro de Quatro Barras, ao
+                    invés de uma ampliação do templo do Florestal. Seu projeto foi lançado na sede (Curitiba) e aprovado
+                    posteriormente. Em 1993 foi realizado o lançamento da pedra fundamental do novo templo, sendo este
+                    inaugurado no dia 12/04/2000, na gestão do Pastor Severino de Almeida.<br><br>&nbsp; &nbsp; No dia
+                    08/02/2006, aconteceu à emancipação do campo de IEADQB, com sede localizada na Rua Manoel Alves dos
+                    Santos, 05 - centro - Quatro Barras/ PR, e suas congregações nos bairros: Jardim Menino Deus (hoje
+                    Filadélfia), Palmitalzinho, Jardim Patrícia, Santa Luzia (hoje Monte Horebe), Borda do Campo e
+                    Colônia Maria José (hoje Jardim Graciosa). Sendo assim, nesta mesma data o Pastor Severino de
+                    Almeida, se tornou o 1º Presidente da Igreja Evangélica Assembléia de Deus em Quatro
+                    Barras.<br><br>&nbsp; &nbsp;No dia 30 de maio de 2009, o pastor Valcir Eugênio Gamier tomou posse
+                    como Presidente da Assembléia de Deus em Quatro Barras, em substituição ao pastor Severino de
+                    Almeida, que jubilou-se neste mesmo campo ministerial.<br>&nbsp;&nbsp;<br>&nbsp; &nbsp; A Assembleia
+                    de Deus de Quatro Barras é uma igreja evangélica comprometida em propagar o Evangelho de Jesus
+                    Cristo e também promover um estilo de vida e fé contagiante a todas as pessoas fundamentado no
+                    caráter de cristo, através de ministérios dinâmicos e relacionamentos saudáveis, proporcionando a
+                    edificação da família e transformações na sociedade.<br><br>Tendo a palavra de Deus como orientação,
+                    a IEADQB busca sempre ser um referencial de igreja cristã relevante para a sociedade, com o objetivo
+                    de atingir e desenvolver integralmente o ser humano, ajudando-o a cumprir o propósito de Deus em sua
+                    vida através de múltiplos ministérios.<br><br><br>VENHA VOCÊ TAMBÉM FAZER PARTE DA NOSSA
+                    HISTÓRIA!<br>&nbsp;
+                </font><br>
+            </div>
+            <hr style="width:100%;clear:both;visibility:hidden;">
+
+            <div>
+                <div style="height: 20px; overflow: hidden;"></div>
+                <div id="981255270977305417-gallery" class="imageGallery"
+                    style="line-height: 0px; padding: 0; margin: 0">
+                    <div id="981255270977305417-imageContainer0" style="float:left;width:33.28%;margin:0;">
+                        <div id="981255270977305417-insideImageContainer0" style="position:relative;margin:5px;">
+                            <div class="galleryImageBorder" style="border-width:1px;padding:3px;">
+                                <div class="galleryImageHolder"
+                                    style="position:relative; width:100%; padding:0 0 75%;overflow:hidden;">
+                                    <div class="galleryInnerImageHolder"><a
+                                            href="/uploads/2/6/9/2/26925854/8032415_orig.jpg"
+                                            rel="lightbox[gallery981255270977305417]"
+                                            onclick="if (!window.lightboxLoaded) return false"
+                                            title="Candidatos ao Batismo em águas" class="w-fancybox"><img
+                                                src="/uploads/2/6/9/2/26925854/8032415.jpg" class="galleryImage"
+                                                _width="400" _height="270"
+                                                style="position:absolute;border:0;width:111.11%;top:0%;left:-5.56%"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="981255270977305417-imageContainer1" style="float:left;width:33.28%;margin:0;">
+                        <div id="981255270977305417-insideImageContainer1" style="position:relative;margin:5px;">
+                            <div class="galleryImageBorder" style="border-width:1px;padding:3px;">
+                                <div class="galleryImageHolder"
+                                    style="position:relative; width:100%; padding:0 0 75%;overflow:hidden;">
+                                    <div class="galleryInnerImageHolder"><a
+                                            href="/uploads/2/6/9/2/26925854/7088187_orig.jpg"
+                                            rel="lightbox[gallery981255270977305417]"
+                                            onclick="if (!window.lightboxLoaded) return false" class="w-fancybox"><img
+                                                src="/uploads/2/6/9/2/26925854/7088187.jpg" class="galleryImage"
+                                                _width="400" _height="318"
+                                                style="position:absolute;border:0;width:100%;top:-3%;left:0%"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="981255270977305417-imageContainer2" style="float:left;width:33.28%;margin:0;">
+                        <div id="981255270977305417-insideImageContainer2" style="position:relative;margin:5px;">
+                            <div class="galleryImageBorder" style="border-width:1px;padding:3px;">
+                                <div class="galleryImageHolder"
+                                    style="position:relative; width:100%; padding:0 0 75%;overflow:hidden;">
+                                    <div class="galleryInnerImageHolder"><a
+                                            href="/uploads/2/6/9/2/26925854/4283752_orig.jpg"
+                                            rel="lightbox[gallery981255270977305417]"
+                                            onclick="if (!window.lightboxLoaded) return false" class="w-fancybox"><img
+                                                src="/uploads/2/6/9/2/26925854/4283752.jpg" class="galleryImage"
+                                                _width="400" _height="287"
+                                                style="position:absolute;border:0;width:104.53%;top:0%;left:-2.26%"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="981255270977305417-imageContainer3" style="float:left;width:33.28%;margin:0;">
+                        <div id="981255270977305417-insideImageContainer3" style="position:relative;margin:5px;">
+                            <div class="galleryImageBorder" style="border-width:1px;padding:3px;">
+                                <div class="galleryImageHolder"
+                                    style="position:relative; width:100%; padding:0 0 75%;overflow:hidden;">
+                                    <div class="galleryInnerImageHolder"><a
+                                            href="/uploads/2/6/9/2/26925854/8984713_orig.jpg"
+                                            rel="lightbox[gallery981255270977305417]"
+                                            onclick="if (!window.lightboxLoaded) return false" class="w-fancybox"><img
+                                                src="/uploads/2/6/9/2/26925854/8984713.jpg" class="galleryImage"
+                                                _width="400" _height="255"
+                                                style="position:absolute;border:0;width:117.65%;top:0%;left:-8.82%"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="981255270977305417-imageContainer4" style="float:left;width:33.28%;margin:0;">
+                        <div id="981255270977305417-insideImageContainer4" style="position:relative;margin:5px;">
+                            <div class="galleryImageBorder" style="border-width:1px;padding:3px;">
+                                <div class="galleryImageHolder"
+                                    style="position:relative; width:100%; padding:0 0 75%;overflow:hidden;">
+                                    <div class="galleryInnerImageHolder"><a
+                                            href="/uploads/2/6/9/2/26925854/8255204_orig.jpg"
+                                            rel="lightbox[gallery981255270977305417]"
+                                            onclick="if (!window.lightboxLoaded) return false" class="w-fancybox"><img
+                                                src="/uploads/2/6/9/2/26925854/8255204.jpg" class="galleryImage"
+                                                _width="400" _height="312"
+                                                style="position:absolute;border:0;width:100%;top:-2%;left:0%"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="981255270977305417-imageContainer5" style="float:left;width:33.28%;margin:0;">
+                        <div id="981255270977305417-insideImageContainer5" style="position:relative;margin:5px;">
+                            <div class="galleryImageBorder" style="border-width:1px;padding:3px;">
+                                <div class="galleryImageHolder"
+                                    style="position:relative; width:100%; padding:0 0 75%;overflow:hidden;">
+                                    <div class="galleryInnerImageHolder"><a
+                                            href="/uploads/2/6/9/2/26925854/3054468_orig.jpg"
+                                            rel="lightbox[gallery981255270977305417]"
+                                            onclick="if (!window.lightboxLoaded) return false" class="w-fancybox"><img
+                                                src="/uploads/2/6/9/2/26925854/3054468.jpg" class="galleryImage"
+                                                _width="400" _height="241"
+                                                style="position:absolute;border:0;width:124.48%;top:0%;left:-12.24%"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><span style="display: block; clear: both; height: 0px; overflow: hidden;"></span>
                 </div>
+
+                <div style="height: 20px; overflow: hidden;"></div>
             </div>
         </div>
 
-    </body>
+    </div>
+
+</body>
+
 </html>
